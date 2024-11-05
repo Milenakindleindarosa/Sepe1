@@ -237,7 +237,7 @@ section h2 {
     padding: 1vw 1vw 3vw 1vw;
 }
 
-section p {
+main.inicio section p {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 1.7rem;
     color: rgb(54, 54, 54);
@@ -329,72 +329,25 @@ main.dicas section img {
 /*==============================
         ERROS
 ===============================*/
-main.desvantagens{
+main.erros{
     margin: 5vw 10vw 5vw 10vw;
 }
-main.desvantagens h2 {
-    display: flex;
-    justify-content: center;
+main.erros h2{
     font-size: 2rem;
-    margin: 5vw;
-}
-main.desvantagens section.principais {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-main.desvantagens section.principais2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 4vw 4vw 4vw;
-    text-align: center;
-}
-main.desvantagens section.principais h2 {
-    font-family: bold;
-}
-main.desvantagens section.principais div.primeiro {
-    background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
-    margin: 1vw 1vw 0vw 1vw;
-    padding: 1vw 1vw 0vw 1vw;
-    border-radius: 20px;
-    text-align: center;
-}
-main.desvantagens section.principais div.segundo {
-    background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
-    margin: 1vw 1vw 1vw 1vw;
-    padding: 0.5vw;
-    border-radius: 20px;
-    text-align: center;
-}
-main.desvantagens section.principais div.terceiro {
-    background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
-    margin: 0vw 2vw 2vw 2vw;
-    padding: 1.5vw 1vw 5vw 1vw;
-    border-radius: 20px;
-    text-align: center;
-}
-main.desvantagens section.principais2 div.quarto {
-    background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
-    padding: 1px;
-    border-radius: 20px;
-    text-align: center;
 }
-main.desvantagens section.principais2 div.quinto {
+main.erros section div p span{
+    font-size: 1.6rem;
+    margin: 1vw;
+}
+main.erros section div p{
+    font-size: 1.5rem;
+    margin: 4vw;
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
-    margin: 2vw;
-    padding: 1px;
+    padding: 2vw;
     border-radius: 20px;
-    text-align: center;
 }
-main.desvantagens section.principais2 div.sexto {
-    background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
-    margin: 2vw;
-    padding: 1px;
-    border-radius: 20px;
-    text-align: center;
-}
-div.mulher img {
+main.erros section div.mulher img {
     width: 60%;
     height: 60%;
     object-fit: cover;
@@ -402,9 +355,12 @@ div.mulher img {
     border-bottom: 2px solid green;
     margin: 2vw 4vw 2vw 15vw;
 }
-section ul.doencas li{
-    margin: 0 4vw 4vw 4vw;
-    font-size: 1.7rem;
+main.erros section.doencas h2{
+    font-size: 2rem;
+}
+main.erros section.doencas ul li{
+    margin: 0 4vw 4vw 0;
+    font-size: 1.5rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
